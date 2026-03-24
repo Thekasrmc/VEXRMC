@@ -1,0 +1,48 @@
+Terms of Service
+Last Updated: 2026
+
+Welcome to TechAsRMC Security Bot.
+
+By inviting or using this bot, you agree to the following terms:
+
+1. Usage
+This bot is provided to help protect Discord servers using automated moderation and security systems such as Anti-Spam, Anti-Raid, and Anti-Nuke.
+
+You agree not to misuse the bot, including:
+- Attempting to bypass security systems
+- Using the bot for illegal or abusive activities
+- Exploiting bugs or vulnerabilities
+
+2. Permissions
+The bot requires certain permissions (e.g., Manage Roles, Ban Members, Manage Channels) to function properly. By using the bot, you acknowledge and grant these permissions.
+
+3. Automated Actions
+The bot may automatically take actions including:
+- Deleting messages
+- Kicking or banning users
+- Locking channels during raid detection
+
+These actions are performed based on configured security rules.
+
+4. Data Usage
+The bot may temporarily store data such as:
+- User IDs
+- Message timestamps
+- Server configuration
+
+No sensitive personal data is intentionally collected.
+
+5. Availability
+We do not guarantee 100% uptime or error-free operation. The service may be updated, modified, or discontinued at any time.
+
+6. Liability
+TechAsRMC Co., Ltd. is not responsible for any damage, data loss, or moderation actions caused by the bot.
+
+7. Termination
+We reserve the right to block access to the bot for any server that violates these terms.
+
+8. Changes
+These terms may be updated at any time. Continued use of the bot means you accept the updated terms.
+
+Contact:
+If you have any questions, contact us via Discord or official channels.

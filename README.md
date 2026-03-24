@@ -1,2 +1,0 @@
-# VEXRMC
-Terms and Privacy

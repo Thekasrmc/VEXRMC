@@ -11,89 +11,60 @@
 
 ---
 
-## 📑 Table of Contents
-
-- [🧠 แนวคิดหลัก](#-แนวคิดหลัก)
-- [🚀 การติดตั้ง](#-การติดตั้ง)
-- [⚙️ Setup Commands](#️-setup-commands)
-- [🛡️ Security Systems](#️-security-systems)
-- [👥 Whitelist & Trusted](#-whitelist--trusted)
-- [🔐 Permission System](#-permission-system)
-- [📜 Logging System](#-logging-system)
-- [📊 Monitoring](#-monitoring)
-- [🔁 Automation](#-automation)
-- [🧠 Setup Flow](#-setup-flow)
-- [📁 Project Structure](#-project-structure)
-
----
-
-## 🧠 แนวคิดหลัก
-
-- ทุกคำสั่งทำงานแบบ **Per-Guild**
-- ใช้ `getGuildConfig(guildId)` แยกข้อมูล
-- ❌ ห้ามใช้ใน DM
-- 🔐 ตรวจ permission ทุกคำสั่ง
-
-### 🧩 ระบบหลัก
-
-- 👑 Admin Role
-- 🔁 Fallback Role
-- 🚫 Whitelist
-- 🛡️ Trusted Role
-
----
-
-## 🚀 การติดตั้ง
-
+## 🚀 Quick Start (เริ่มใช้งานเร็ว)
 ### 1️⃣ เชิญบอท (OAuth2)
 
-https://discord.com/oauth2/authorize?client_id=1373550516961017876&permissions=8&integration_type=0&scope=bot+applications.commands
+ ### https://discord.com/oauth2/authorize?client_id=1373550516961017876&permissions=8&integration_type=0&scope=bot+applications.commands
 ---
 
 ### 2️⃣ Setup ครั้งแรก
 
 ```bash id="setup_cmd"
-/setup all
+/setup all หรือ /setup panel 
 ```
-### ตรวจสอบ config:
+### 3️⃣ ตรวจสอบ สถานะ:
 ```
 /config
 ```
-⚙️ Setup Commands
+### 🎛️ Setup Panel (แนะนำ)
 ```
-/setup all
-/setup adminrole
-/setup fallbackrole
-/setup logchannel
-/setup safechannel_add
-/setup safechannel_remove
-/setup safechannel_list
-/setup createlog
+/setup panel
 ```
+> 👉 จะได้หน้าตั้งค่าแบบ interactive (embed + ปุ่ม)
+> สามารถตั้งค่า:
+> 
+> ```Admin Role```
+> ```Log Channel```
+> ```Safe Channels```
+> ```Trusted Roles```
+> ```Whitelist```
+> ```Security Systems```
+> 
+> ✅ ความพิเศษ
+> มี Preview Diff ก่อน Save
+> ต้องกด Confirm / Cancel
+> ลดความผิดพลาดในการตั้งค่า
 
-### 🛡️ Security Systems
+## 🛡️ Security Systems
 🚨 Anti-Raid
 ```
 /antiraid set
 ```
-> threshold: จำนวน user
+> ```threshold: จำนวน user```
 > 
-> action: kick / ban / mute
+> ```action: kick / ban / mute```
 > 
-> window: เวลา
+> ```window: เวลา```
 
 💣 Anti-Nuke
 ```
 /antinuke set
 ```
 ป้องกัน:
-> ลบ channel
-> 
-> ลบ role
-> 
-> mass ban
-> 
-> webhook spam
+> ```ลบ channel```
+> ```ลบ role```
+> ```mass ban```
+> ```webhook spam```
 
 🔒 Lockdown
 ```
@@ -106,6 +77,25 @@ https://discord.com/oauth2/authorize?client_id=1373550516961017876&permissions=8
 /panic confirm:PANIC
 ```
 > เปิดระบบป้องกันฉุกเฉิน
+
+## 🌐 Link Filter (Advanced)
+### จัดการลิงก์:
+```
+/linkfilter view
+/linkfilter set
+/linkfilter allow_add
+/linkfilter deny_add
+/linkfilter test
+```
+### รองรับ:
+> ```https://```
+> ```www```
+> ```discord.gg```
+> ```discord.com/invite```
+### ฟีเจอร์:
+> ```Allowlist / Denylist```
+> ```Bypass (role / channel / user)```
+> ```Normalize domain```
 
 ## 👥 Whitelist & Trusted
 ### Whitelist
@@ -142,12 +132,12 @@ https://discord.com/oauth2/authorize?client_id=1373550516961017876&permissions=8
 /log disable
 /log reset
 ```
-📌 ประเภท log
-security
-message
-member
-role
-audit
+### 📌 ประเภท log
+```security```
+```message```
+```member```
+```role```
+```audit```
 ### 📊 Monitoring
 ```
 /status
@@ -167,8 +157,16 @@ audit
 ```🚨 ตรวจ raid```
 ```💣 ตรวจ nuke```
 ```🧹 auto clean```
-```♻️ auto restore บางส่วน```
+```♻️ auto restore บางกรณี```
 
+## 🧠 Setup Flow (แนะนำ)
+1. ```/setup all```
+2. ```/setup panel```
+ตั้ง:
+3. ```Admin Role```
+4. ```Log Channel```
+5. ```เปิด Security Systems```
+6. ```ทดสอบ /test```
 ## ⚠️ หมายเหตุสำคัญ
 ❗ อย่าให้ admin role ผิดคน
 

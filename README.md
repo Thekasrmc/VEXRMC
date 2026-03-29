@@ -131,6 +131,7 @@ https://discord.com/oauth2/authorize?client_id=1373550516961017876&permissions=8
 /permission clear
 ```
 > 👉 กำหนดว่า: ใครใช้คำสั่งอะไรได้
+> 
 > /permission set all @role ถือว่าใช้ อุนญาติ ทุกคำสั่งให้ @role
 
 ## 📜 Logging System

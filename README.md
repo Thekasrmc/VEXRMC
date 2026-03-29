@@ -1,5 +1,5 @@
 # 🛡️ VEXRMC Security Bot
-![Logo](./assets/Tech.gif)
+![Logo](/assets/TC.gif)
 
 ![Version](https://img.shields.io/badge/version-1.0.0-blue)
 ![Discord](https://img.shields.io/badge/discord-bot-7289DA)

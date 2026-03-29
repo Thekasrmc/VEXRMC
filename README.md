@@ -1,6 +1,6 @@
 # 🛡️ VEXRMC Security Bot
 
-![Version](https://img.shields.io/badge/version-1.0.0-blue)
+![Version](https://img.shields.io/badge/version-1.1.2-blue)
 ![Discord](https://img.shields.io/badge/discord-bot-7289DA)
 ![Security](https://img.shields.io/badge/security-advanced-red)
 ![License](https://img.shields.io/badge/license-MIT-green)

@@ -167,7 +167,7 @@
 4. ```Log Channel```
 5. ```เปิด Security Systems```
 6. ```ทดสอบ /test```
-## ⚠️ หมายเหตุสำคัญ
+## ⚠️ Important Notes
 ❗ อย่าให้ admin role ผิดคน
 
 ❗ อย่าลืม whitelist ตัวเอง
@@ -176,5 +176,5 @@
 
 ❗ ตรวจ permission bot ให้ครบ
 
-## 🏢 ผู้พัฒนา
+## 🏢 Developer
 ### TechAsRMC Co., Ltd. 

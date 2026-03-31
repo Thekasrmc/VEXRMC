@@ -9,8 +9,8 @@
 > ป้องกัน **Raid / Nuke / Spam / Abuse** แบบระดับ Production  
 > รองรับ **Multi-Guild (แยก config ต่อ server)**
 > 
-> **แนะนำ‼️** [EasyRMC](https://github.com/Thekasrmc/EasyRMC) Bot ช่วยให้ใช้การใช้ Serverใช้งานง่ายขึ้น มี คำสั่งให้ใช้มากมาย
-> ```หากต้องการกดที่คำว่า EasyRMC ด้านบนได้เลย !!!```
+> **แนะนำ‼️** [EasyRMC Bot ช่วยให้ใช้การใช้ Serverใช้งานง่ายขึ้น มี คำสั่งให้ใช้มากมาย หากต้องการกดที่นี่เลย !!!](https://github.com/Thekasrmc/EasyRMC)
+
 
 ---
 

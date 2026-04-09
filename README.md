@@ -3,7 +3,6 @@
 ![Version](https://img.shields.io/badge/version-1.2.0-blue)
 ![Discord](https://img.shields.io/badge/discord-bot-7289DA)
 ![Security](https://img.shields.io/badge/security-advanced-red)
-![License](https://img.shields.io/badge/license-MIT-green)
 ![Logo](/assets/TC.gif)
 > 🔐 **VEXRMC** คือ Security Bot สำหรับ Discord  
 > ป้องกัน **Raid / Nuke / Spam / Abuse** แบบระดับ Production  

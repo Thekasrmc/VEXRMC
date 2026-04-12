@@ -172,14 +172,11 @@
 4. ```Log Channel```
 5. ```เปิด Security Systems```
 6. ```ทดสอบ /test```
-## ⚠️ Important Notes
-❗ อย่าให้ admin role ผิดคน
+## ⚠️ Important Notes ‼️
+* อย่าให้ admin role ผิดคน❗
+* อย่าลืม whitelist ตัวเอง❗
+* อย่า reset config โดยไม่ backup❗
+* ตรวจ permission bot ให้ครบ❗
 
-❗ อย่าลืม whitelist ตัวเอง
-
-❗ อย่า reset config โดยไม่ backup
-
-❗ ตรวจ permission bot ให้ครบ
-
-## 🏢 Developer
-### TechAsRMC Co., Ltd. 
+## Product of
+### TechAsRMC Co., Ltd.

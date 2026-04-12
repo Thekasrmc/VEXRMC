@@ -1,9 +1,11 @@
-# 🛡️ VEXRMC Security Bot
+# VEXRMC Security Bot
 
 ![Version](https://img.shields.io/badge/version-1.2.0-blue)
+![FREE](https://img.shields.io/badge/Free-ToUse-green)
 ![Discord](https://img.shields.io/badge/discord-bot-7289DA)
 ![Security](https://img.shields.io/badge/security-advanced-red)
-![Logo](/assets/TC.gif)
+<img align="right" src="/assets/VEXLOGO.png" width=200 alt="Vexrmc logo">
+> [!NOTE]
 > 🔐 **VEXRMC** คือ Security Bot สำหรับ Discord  
 > ป้องกัน **Raid / Nuke / Spam / Abuse** แบบระดับ Production  
 > รองรับ **Multi-Guild (แยก config ต่อ server)**
@@ -11,13 +13,12 @@
 > **แนะนำ‼️** [EasyRMC Bot ช่วยให้ใช้การใช้ Serverใช้งานง่ายขึ้น มี คำสั่งให้ใช้มากมาย หากต้องการกดที่นี่เลย !!!](https://github.com/Thekasrmc/EasyRMC)
 
 
----
-
-## 🚀 Quick Start (เริ่มใช้งานเร็ว)
+##  Quick Start (เริ่มใช้งานเร็ว)
 ### 1️⃣ เชิญบอท (OAuth2)
 
  ### https://discord.com/oauth2/authorize?client_id=1373550516961017876&permissions=8&integration_type=0&scope=bot+applications.commands
----
+[![VEXRMC GUILD](https://discordapp.com/api/guilds/1485928561641783357/embed.png?style=banner2)]( https://discord.com/oauth2/authorize?client_id=1373550516961017876&permissions=8&integration_type=0&scope=bot+applications.commands
+)
 
 ### 2️⃣ Setup ครั้งแรก
 
@@ -28,10 +29,11 @@
 ```
 /config
 ```
-### 🎛️ Setup Panel (แนะนำ)
+###  Setup Panel (แนะนำ)
 ```
 /setup panel
 ```
+> [!NOTE]
 > 👉 จะได้หน้าตั้งค่าแบบ interactive (embed + ปุ่ม)
 > สามารถตั้งค่า:
 > 
@@ -47,7 +49,7 @@
 > ต้องกด Confirm / Cancel
 > ลดความผิดพลาดในการตั้งค่า
 
-## 🛡️ Security Systems
+##  Security Systems
 🚨 Anti-Raid
 ```
 /antiraid set
@@ -63,6 +65,7 @@
 /antinuke set
 ```
 ป้องกัน:
+
 > ```ลบ channel```
 > ```ลบ role```
 > ```mass ban```
@@ -80,7 +83,7 @@
 ```
 > เปิดระบบป้องกันฉุกเฉิน
 
-## 🌐 Link Filter (Advanced)
+##  Link Filter (Advanced)
 ### จัดการลิงก์:
 ```
 /linkfilter view
@@ -99,7 +102,7 @@
 > ```Bypass (role / channel / user)```
 > ```Normalize domain```
 
-## 👥 Whitelist & Trusted
+##  Whitelist & Trusted
 ### Whitelist
 ```
 /whitelist add
@@ -116,7 +119,7 @@
 ```
 > 👉 bypass บางระบบ
 
-### 🔐 Permission System
+###  Permission System
 ```
 /permission view
 /permission set
@@ -126,7 +129,7 @@
 > 
 > /permission set all @role ถือว่าใช้ อุนญาติ ทุกคำสั่งให้ @role
 
-## 📜 Logging System
+##  Logging System
 ```
 /log view
 /log set
@@ -134,13 +137,13 @@
 /log disable
 /log reset
 ```
-### 📌 ประเภท log
+###  ประเภท log
 ```security```
 ```message```
 ```member```
 ```role```
 ```audit```
-### 📊 Monitoring
+###  Monitoring
 ```
 /status
 /stats
@@ -152,7 +155,7 @@
 ```logs การใช้งาน```
 ```เหตุการณ์ทั้งหมด```
 
-## 🔁 Automation
+##  Automation
 ### บอทจะทำงานอัตโนมัติ:
 ```🔍 ตรวจ spam```
 ```🔗 ตรวจ link```
@@ -161,7 +164,7 @@
 ```🧹 auto clean```
 ```♻️ auto restore บางกรณี```
 
-## 🧠 Setup Flow (แนะนำ)
+##  Setup Flow (แนะนำ)
 1. ```/setup all```
 2. ```/setup panel```
 ตั้ง:

@@ -11,14 +11,13 @@
 > รองรับ **Multi-Guild (แยก config ต่อ server)**
 > 
 > **แนะนำ‼️** [EasyRMC Bot ช่วยให้ใช้การใช้ Serverใช้งานง่ายขึ้น มี คำสั่งให้ใช้มากมาย หากต้องการกดที่นี่เลย !!!](https://github.com/Thekasrmc/EasyRMC)
-
+### Discord Server here!!
+[![TechAsRMC GUILD](https://discordapp.com/api/guilds/1485928561641783357/embed.png?style=banner2)](https://discord.gg/qAP9gnkuSB)
 
 ##  Quick Start (เริ่มใช้งานเร็ว)
 ### 1️⃣ เชิญบอท (OAuth2)
 
  ### https://discord.com/oauth2/authorize?client_id=1373550516961017876&permissions=8&integration_type=0&scope=bot+applications.commands
-[![VEXRMC GUILD](https://discordapp.com/api/guilds/1485928561641783357/embed.png?style=banner2)]( https://discord.com/oauth2/authorize?client_id=1373550516961017876&permissions=8&integration_type=0&scope=bot+applications.commands
-)
 
 ### 2️⃣ Setup ครั้งแรก
 

@@ -1,4 +1,4 @@
-# VEXRMC Security Bot (Not activated)
+# VEXRMC Security Bot (activated)
 
 ![Version](https://img.shields.io/badge/version-1.2.1-blue)
 ![FREE](https://img.shields.io/badge/Free-ToUse-green)
